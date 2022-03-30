@@ -49,7 +49,7 @@ countdown.prototype.getServices = function () {
 
 countdown.prototype.setTimer = function () {
   clearTimeout(this.timer);
-  if (this.value == 0) {
+  if (this.value <= 0) {
     return;
   }
   this.timer = setTimeout(function() {
