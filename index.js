@@ -53,7 +53,7 @@ countdown.prototype.setTimer = function () {
     return;
   }
   this.timer = setTimeout(function() {
-    this.value--;
+    this.value = parseInt((this.value - 1).toFixed(0), 10);
     this.log(this.name + ' Counting down. ' + this.value);
     this.contdownCharacteristic.updateValue(this.value);
     this.setTimer()
