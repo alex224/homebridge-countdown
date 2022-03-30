@@ -17,9 +17,9 @@ function countdown(log, config) {
 }
 
 countdown.CountdownService = function(name) {
-  Service.call(this, name, 'E7E97EBD-AA9D-4E73-A84E-118B6FB46433', null);
+  Service.call(this, name, 'E7E97EBD-AA9D-4E73-A84E-118B6FB46444', null);
   // Optional Characteristics
-  this.UUID = 'E7E97EBD-AA9D-4E73-A84E-118B6FB46433';
+  this.UUID = 'E7E97EBD-AA9D-4E73-A84E-118B6FB46444';
 };
 
 countdown.CountdownValue = function() {
